@@ -7,8 +7,6 @@ Welcome to the C++ Standard Template Library (STL) examples directory! This dire
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
 3. [Examples](#examples)
-4. [Contributing](#contributing)
-5. [License](#license)
 
 ## Introduction
 
