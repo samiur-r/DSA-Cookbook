@@ -1,5 +1,5 @@
-#include <iostream> // Included iostream for standard I/O operations
-#include <utility>  // Included utility for pair class template
+#include <iostream>
+#include <utility>
 
 using namespace std;
 
