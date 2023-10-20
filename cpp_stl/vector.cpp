@@ -51,7 +51,7 @@ int main()
     for (int i : v)
         cout << i << " "; // Note: The new elements are default-initialized (zero for integers)
 
-    cout << v.empty(); // Check if the vector is empty
+    cout << v.empty() << endl; // Check if the vector is empty
 
     return 0;
 }

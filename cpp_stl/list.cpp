@@ -35,6 +35,7 @@ int main()
     cout << "List after popping front element: ";
     for (int i : myList)
         cout << i << " ";
+    cout << endl;
 
     return 0;
 }
