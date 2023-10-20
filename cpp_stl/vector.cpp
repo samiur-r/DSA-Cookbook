@@ -23,8 +23,14 @@ int main()
     for (int i : v)
         cout << i << " ";
 
-    // Erasing the last element from the vector
-    v.erase(v.end() - 1);
+    // Erasing an element at a specific position
+    v.erase(v.end() - 2);
+    cout << "\nAfter erasing the second last element: ";
+    for (int i : v)
+        cout << i << " ";
+
+    // Erasing last element
+    v.pop_back();
     cout << "\nAfter erasing the last element: ";
     for (int i : v)
         cout << i << " ";
