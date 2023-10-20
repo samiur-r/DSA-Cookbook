@@ -28,5 +28,13 @@ int main()
     // Printing the total number of elements in the list
     cout << "\nSize of the list is: " << myList.size() << endl;
 
+    // Removing the element from the front of the list
+    myList.pop_front();
+
+    // Printing the elements of the list after deletion
+    cout << "List after popping front element: ";
+    for (int i : myList)
+        cout << i << " ";
+
     return 0;
 }

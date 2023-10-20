@@ -29,8 +29,9 @@ int main()
     for (int i : v)
         cout << i << " ";
 
-    // Displaying the last element and size of the vector
-    cout << "\nLast element in vector: " << v.back() << endl;
+    // Displaying the first, last element and size of the vector
+    cout << "\nFirst element in vector: " << v.front() << endl;
+    cout << "Last element in vector: " << v.back() << endl;
     cout << "Size of vector: " << v.size() << endl;
 
     // Clearing all elements from the vector
@@ -43,6 +44,8 @@ int main()
     cout << "Elements after resizing: ";
     for (int i : v)
         cout << i << " "; // Note: The new elements are default-initialized (zero for integers)
+
+    cout << v.empty(); // Check if the vector is empty
 
     return 0;
 }
